@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+<meta name="theme-color" content="#0a0a0a" />
+<title>Vagish Yagnik — Full-stack + AI Engineer</title>
+<meta name="description" content="Vagish Yagnik — MTS / SDE II at Salesforce Marketing Cloud. Full-stack + AI engineer: AI products end to end, from multi-tenant services, auth and event pipelines to the interfaces on top." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;700;900&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body class="loading">
+  <!-- PRELOADER -->
+  <div class="loader" id="loader">
+    <div class="nfx" id="nfx">
+      <div class="leg leg-l"><div class="lamps" id="lamps"></div><div class="brush"></div></div>
+      <div class="leg leg-r"><div class="brush"></div></div>
+    </div>
+    <p class="intro-tag mono" id="introTag">vagish yagnik · full-stack + ai engineer</p>
+  </div>
+
+  <div class="cursor" id="cursor"><span id="cursorLabel"></span></div>
+  <div class="noise"></div>
+
+  <header class="nav">
+    <a href="#top" class="logo" data-hover>VY<sup>®</sup></a>
+    <nav class="nav-links">
+      <a href="#about" data-hover data-scramble>About</a>
+      <a href="#arena" data-hover data-scramble>Arena</a>
+      <a href="#exp" data-hover data-scramble>Experience</a>
+      <a href="https://drive.google.com/file/d/1vJatr7ny7B77jljhK_bKS2wWLAG40RHC/view?usp=sharing" target="_blank" rel="noopener" data-hover data-scramble>Resume ↓</a>
+    </nav>
+    <a href="#contact" class="nav-cta mono" data-hover><span class="pulse"></span>Let's talk</a>
+    <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false"><i></i><i></i></button>
+  </header>
+
+  <!-- MOBILE MENU -->
+  <div class="menu" id="menu" aria-hidden="true">
+    <nav>
+      <a href="#about"><span class="mono">01</span>About</a>
+      <a href="#stack"><span class="mono">02</span>Stack</a>
+      <a href="#exp"><span class="mono">03</span>Experience</a>
+      <a href="#clients"><span class="mono">04</span>Clients</a>
+      <a href="#arena"><span class="mono">05</span>Arena</a>
+      <a href="#contact"><span class="mono">06</span>Contact</a>
+      <a href="https://drive.google.com/file/d/1vJatr7ny7B77jljhK_bKS2wWLAG40RHC/view?usp=sharing" target="_blank" rel="noopener"><span class="mono">07</span>Resume ↓</a>
+    </nav>
+    <p class="mono menu-foot">vagishyagnik@gmail.com · Bangalore</p>
+  </div>
+
+  <main id="top">
+    <!-- HERO -->
+    <section class="hero">
+      <canvas id="gl"></canvas>
+      <div class="hero-inner">
+        <p class="kicker mono hero-fade">Vagish Yagnik — Full-stack + AI Engineer · MTS / SDE II @ Salesforce · Bangalore</p>
+        <h1 class="hero-title">
+          <span class="line split">building</span>
+          <span class="line"><span class="split accent">solid</span> <em class="serif split">products</em></span>
+          <span class="line split outline">since 2022</span>
+        </h1>
+        <p class="hero-sub hero-fade">Full-stack + AI engineer shipping products end to end — from the services behind Salesforce's Agentforce Content Agent to the interfaces people actually touch.</p>
+      </div>
+      <a href="#about" class="scroll mono hero-fade" data-hover>↓ scroll, it gets better</a>
+    </section>
+
+    <!-- LOGO MARQUEE -->
+    <div class="marquee" aria-label="Where I've worked and studied"><div class="track" id="marquee">
+      <img src="assets/logos/salesforce-full.png" alt="Salesforce" class="lg-sf" /><i>✦</i>
+      <img src="assets/logos/dice-mark.png" alt="Dice" class="lg-mark" /><i>✦</i>
+      <img src="assets/logos/sprinklr.svg" alt="Sprinklr" /><i>✦</i>
+      <img src="assets/logos/aidash.svg" alt="AiDash" /><i>✦</i>
+      <img src="assets/logos/cultfit.png" alt="cult.fit" /><i>✦</i>
+      <img src="assets/logos/dtu.png" alt="Delhi Technological University" class="lg-color" /><i>✦</i>
+      <img src="assets/logos/salesforce-full.png" alt="" class="lg-sf" /><i>✦</i>
+      <img src="assets/logos/dice-mark.png" alt="" class="lg-mark" /><i>✦</i>
+      <img src="assets/logos/sprinklr.svg" alt="" /><i>✦</i>
+      <img src="assets/logos/aidash.svg" alt="" /><i>✦</i>
+      <img src="assets/logos/cultfit.png" alt="" /><i>✦</i>
+      <img src="assets/logos/dtu.png" alt="" class="lg-color" /><i>✦</i>
+    </div></div>
+
+    <!-- ABOUT -->
+    <section id="about" class="section about">
+      <p class="label mono">(01) About</p>
+      <h2 class="big-copy" id="scrubText">I'm picky about what I build. I like owning the whole thing — the UI people touch, the AI that does the work, and the plumbing nobody sees until it breaks at 3am.</h2>
+      <div class="about-grid">
+        <figure class="portrait" id="portrait" data-label="hi 👋">
+          <div class="portrait-img"><img src="assets/me.jpg" alt="Vagish Yagnik" /></div>
+          <figcaption class="mono"><span>Vagish Yagnik</span><span>BLR · IST</span></figcaption>
+        </figure>
+        <div class="about-copy">
+          <p class="reveal">Right now I'm at <strong>Salesforce Marketing Cloud</strong>, on the services behind
+            <strong>Agentforce Content Agent</strong>. I own cross-cloud auth between Salesforce Core and Studio Services, the
+            provisioning pipeline, and the identity-header architecture the team builds on.</p>
+          <p class="reveal">Before that I led backend for enterprise travel & expense platforms at <strong>Dice</strong> (Cleartrip, IDFC,
+            MakeMyTrip) and did Elasticsearch & Stripe work at <strong>Sprinklr</strong>. Java (Spring, Vert.x), Node and Python, all on AWS.
+            B.Tech in Computer Engineering from Delhi Technological University (9.1 CGPA), after a JEE rank of 5,649.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- NUMBERS -->
+    <section class="numbers">
+      <div class="reveal"><b data-count="400">0</b><sup>+</sup><span>enterprise clients served on the Cleartrip B2B platform</span></div>
+      <div class="reveal"><b data-count="50">0</b><sup>%</sup><span>cut in cloud infra & Google Maps costs</span></div>
+      <div class="reveal"><b data-count="99">0</b><sup>%+</sup><span>uptime on mission-critical flight & expense services</span></div>
+      <div class="reveal"><b data-count="20">0</b><sup>%</sup><span>faster Elasticsearch queries at Sprinklr</span></div>
+    </section>
+
+    <!-- WHAT I DO — pinned horizontal scroll on desktop, swipe carousel on mobile -->
+    <section class="hscroll" id="hscroll">
+      <div class="hs-track" id="hsTrack">
+        <div class="hs-intro">
+          <p class="label mono">(02) What I do</p>
+          <h2>Six things<br/>I'm <em>dangerously</em><br/>good at <span class="hs-arrow">→</span></h2>
+          <p class="mono muted hs-hint">swipe →</p>
+        </div>
+        <div class="hs-cards">
+        <article class="hs-card" style="--h:75"><span class="mono">01</span>
+          <svg class="hs-art art-net" viewBox="0 0 240 200" aria-hidden="true">
+            <path class="flow" d="M120 100 L50 50 M120 100 L190 50 M120 100 L40 130 M120 100 L200 130 M120 100 L120 175 M50 50 L190 50 M40 130 L120 175 L200 130"/>
+            <circle class="ring" cx="120" cy="100" r="30"/>
+            <circle class="core" cx="120" cy="100" r="14"/>
+            <g class="nodes"><circle cx="50" cy="50" r="8"/><circle cx="190" cy="50" r="8"/><circle cx="40" cy="130" r="8"/><circle cx="200" cy="130" r="8"/><circle cx="120" cy="175" r="8"/></g>
+          </svg>
+          <h3>Distributed backends</h3><p>Java · Spring · Vert.x · Node.js · Python · Kafka</p><div class="orb"></div></article>
+        <article class="hs-card" style="--h:280"><span class="mono">02</span>
+          <svg class="hs-art art-auth" viewBox="0 0 240 200" aria-hidden="true">
+            <circle class="orbit" cx="120" cy="100" r="86"/>
+            <circle class="orbit o2" cx="120" cy="100" r="70"/>
+            <path class="shield" d="M120 32 L172 52 V98 C172 132 150 156 120 168 C90 156 68 132 68 98 V52 Z"/>
+            <path class="key" d="M120 88 m-11 0 a11 11 0 1 0 22 0 a11 11 0 1 0 -22 0 M114 98 L110 128 H130 L126 98"/>
+            <rect class="scan" x="70" y="40" width="100" height="3" rx="1.5"/>
+          </svg>
+          <h3>Auth & security</h3><p>mTLS · OAuth 2.0 · JWT / OrgJWT · SSRF & CSP hardening</p><div class="orb"></div></article>
+        <article class="hs-card" style="--h:190"><span class="mono">03</span>
+          <svg class="hs-art art-cloud" viewBox="0 0 240 200" aria-hidden="true">
+            <g class="plate p3"><path d="M120 128 L200 152 L120 176 L40 152 Z"/></g>
+            <g class="plate p2"><path d="M120 92 L200 116 L120 140 L40 116 Z"/><path class="pods" d="M90 116 h12 M114 116 h12 M138 116 h12"/></g>
+            <g class="plate p1"><path d="M120 56 L200 80 L120 104 L40 80 Z"/><circle cx="120" cy="80" r="7"/></g>
+            <path class="cloud" d="M92 40 a14 14 0 0 1 4 -27 a20 20 0 0 1 38 -2 a14 14 0 0 1 14 29 Z"/>
+          </svg>
+          <h3>Cloud & infra</h3><p>AWS · GCP · Kubernetes · Docker · Helm · Falcon</p><div class="orb"></div></article>
+        <article class="hs-card" style="--h:330"><span class="mono">04</span>
+          <svg class="hs-art art-db" viewBox="0 0 240 200" aria-hidden="true">
+            <path class="cyl" d="M70 40 v120 a50 16 0 0 0 100 0 v-120"/>
+            <ellipse class="cyl" cx="120" cy="40" rx="50" ry="16"/>
+            <path class="disc d1" d="M70 80 a50 16 0 0 0 100 0"/>
+            <path class="disc d2" d="M70 120 a50 16 0 0 0 100 0"/>
+            <g class="rows"><rect x="186" y="50" width="34" height="5" rx="2.5"/><rect x="186" y="66" width="24" height="5" rx="2.5"/><rect x="186" y="82" width="30" height="5" rx="2.5"/><rect x="20" y="110" width="30" height="5" rx="2.5"/><rect x="26" y="126" width="24" height="5" rx="2.5"/></g>
+          </svg>
+          <h3>Data</h3><p>PostgreSQL · MongoDB · MySQL · Redis / Valkey · Elasticsearch</p><div class="orb"></div></article>
+        <article class="hs-card" style="--h:40"><span class="mono">05</span>
+          <svg class="hs-art art-obs" viewBox="0 0 240 200" aria-hidden="true">
+            <path class="grid" d="M20 40 H220 M20 80 H220 M20 120 H220 M20 160 H220 M60 30 V170 M120 30 V170 M180 30 V170"/>
+            <path class="area" d="M20 130 L60 118 L80 124 L100 80 L120 140 L140 60 L160 110 L190 96 L220 104 V170 H20 Z"/>
+            <path class="pulse" d="M20 130 L60 118 L80 124 L100 80 L120 140 L140 60 L160 110 L190 96 L220 104"/>
+            <circle class="blip" cx="140" cy="60" r="5"/>
+          </svg>
+          <h3>Observability</h3><p>APM · OpenTelemetry · Prometheus · Grafana · Kibana</p><div class="orb"></div></article>
+        <article class="hs-card" style="--h:150"><span class="mono">06</span>
+          <svg class="hs-art art-api" viewBox="0 0 240 200" aria-hidden="true">
+            <rect class="box" x="16" y="62" width="64" height="76" rx="14"/>
+            <rect class="box" x="160" y="62" width="64" height="76" rx="14"/>
+            <text class="brace" x="48" y="112" text-anchor="middle">{ }</text>
+            <text class="brace" x="192" y="112" text-anchor="middle">&lt;/&gt;</text>
+            <path class="wire" d="M80 86 H160 M160 114 H80"/>
+            <circle class="pkt req" cx="0" cy="86" r="4.5"/>
+            <circle class="pkt res" cx="0" cy="114" r="4.5"/>
+            <text class="verb" x="120" y="74" text-anchor="middle">POST</text>
+            <text class="verb" x="120" y="134" text-anchor="middle">200 OK</text>
+          </svg>
+          <h3>APIs & integrations</h3><p>REST · GraphQL · gRPC · SOAP · Stripe · Razorpay · SAP / Oracle</p><div class="orb"></div></article>
+        </div>
+      </div>
+    </section>
+
+    <!-- STACK SPHERE -->
+    <section id="stack" class="section sphere-wrap">
+      <div>
+        <p class="label mono">(03) Toolbox</p>
+        <h2 class="sphere-title">The stack,<br/><em>in orbit.</em></h2>
+        <p class="muted">Drag it, or just move your mouse over it. Every logo is something I've run in production, mostly on the server side.</p>
+        <p class="sphere-name mono" id="sphereName"><span>hover a logo</span></p>
+      </div>
+      <div class="sphere" id="sphere"></div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="exp" class="section">
+      <p class="label mono">(04) Experience</p>
+      <div class="exp">
+        <div class="exp-row reveal"><span class="mono">2026 — now</span><div class="exp-logo"><img src="assets/logos/salesforce-full.png" alt="Salesforce" class="lg-sf" /></div><p><b>Member of Technical Staff / SDE II</b>Marketing Cloud · cross-cloud auth, identity, provisioning</p></div>
+        <div class="exp-row reveal"><span class="mono">2023 — 2026</span><div class="exp-logo"><img src="assets/logos/dice-mark.png" alt="Dice" class="lg-mark" /></div><p><b>Senior Associate Backend Engineer</b>Led Cleartrip B2B for 400+ enterprises, MakeMyTrip, IDFC (CBDC, a Cr.-worth deal) & Yes Bank BBPS</p></div>
+        <div class="exp-row reveal"><span class="mono">2022 — 2023</span><div class="exp-logo"><img src="assets/logos/sprinklr.svg" alt="Sprinklr" /></div><p><b>Software Engineer</b>ES 5→7 migration, Stripe integration, on-call</p></div>
+        <div class="exp-row reveal"><span class="mono">2022</span><div class="exp-logo"><img src="assets/logos/aidash.svg" alt="AiDash" /></div><p><b>SWE Intern</b>Microsoft OAuth, service onboarding ~50% faster</p></div>
+        <div class="exp-row reveal"><span class="mono">2021</span><div class="exp-logo"><img src="assets/logos/cultfit.png" alt="cult.fit" /></div><p><b>SWE Intern</b>HealthKit SDK + fitness data APIs</p></div>
+        <div class="exp-row reveal"><span class="mono">2018 — 2022</span><div class="exp-logo"><img src="assets/logos/dtu.png" alt="Delhi Technological University" class="lg-color" /></div><p><b>B.Tech, Computer Engineering</b>Delhi Technological University · 9.1 CGPA · JEE rank 5,649</p></div>
+      </div>
+    </section>
+
+    <!-- CLIENTS -->
+    <section id="clients" class="section clients-wrap">
+      <div class="clients-head">
+        <p class="label mono">(05) Shipped for</p>
+        <h2 class="clients-title">Enterprises that ran <em>on my code.</em></h2>
+        <p class="muted">Integrations, workflows and platforms I built or led, from flight bookings to bill payments to bank-grade reimbursements.</p>
+      </div>
+      <ul class="clients" id="clientGrid">
+        <li class="client" data-hover><img src="assets/logos/salesforce-full.png" alt="Salesforce" class="cl-salesforce" /><span class="mono">Salesforce</span></li>
+        <li class="client" data-hover><img src="assets/logos/clients/mmt.svg" alt="MakeMyTrip" class="cl-mmt" /><span class="mono">MakeMyTrip</span></li>
+        <li class="client" data-hover><img src="assets/logos/clients/cleartrip.svg" alt="Cleartrip" class="cl-cleartrip" /><span class="mono">Cleartrip</span></li>
+        <li class="client" data-hover><img src="assets/logos/clients/havells.svg" alt="Havells" class="cl-havells" /><span class="mono">Havells</span></li>
+        <li class="client" data-hover><img src="assets/logos/clients/idfc.svg" alt="IDFC First Bank" class="cl-idfc" /><span class="mono">IDFC First Bank</span></li>
+        <li class="client" data-hover><img src="assets/logos/clients/yesbank.svg" alt="Yes Bank" class="cl-yesbank" /><span class="mono">Yes Bank</span></li>
+        <li class="client" data-hover><img src="assets/logos/clients/bajaj.svg" alt="Bajaj Auto" class="cl-bajaj" /><span class="mono">Bajaj Auto</span></li>
+        <li class="client" data-hover><img src="assets/logos/clients/ub.png" alt="United Breweries" class="cl-ub" /><span class="mono">United Breweries</span></li>
+        <li class="client" data-hover><img src="assets/logos/clients/adani.svg" alt="Adani" class="cl-adani" /><span class="mono">Adani</span></li>
+        <li class="client" data-hover><img src="assets/logos/clients/pinelabs.svg" alt="Pine Labs" class="cl-pinelabs" /><span class="mono">Pine Labs</span></li>
+        <li class="client" data-hover><img src="assets/logos/clients/flipkart.svg" alt="Flipkart" class="cl-flipkart" /><span class="mono">Flipkart</span></li>
+        <li class="client" data-hover><img src="assets/logos/clients/cultfit.png" alt="cult.fit" class="cl-cultfit" /><span class="mono">cult.fit</span></li>
+        <li class="client" data-hover><img src="assets/logos/clients/aidash.svg" alt="AiDash" class="cl-aidash" /><span class="mono">AiDash</span></li>
+        <li class="client" data-hover><img src="assets/logos/clients/dice.png" alt="Dice" class="cl-dice" /><span class="mono">Dice</span></li>
+        <li class="client" data-hover><img src="assets/logos/clients/lenskart.svg" alt="Lenskart" class="cl-lenskart" /><span class="mono">Lenskart</span></li>
+        <li class="client" data-hover><img src="assets/logos/clients/nykaa.svg" alt="Nykaa" class="cl-nykaa" /><span class="mono">Nykaa</span></li>
+      </ul>
+    </section>
+
+    <!-- ARENA: competitive programming, teaching, hobbies -->
+    <section id="arena" class="section arena-wrap">
+      <div class="clients-head">
+        <p class="label mono">(06) Off the clock</p>
+        <h2 class="arena-title">Off the clock, <em>still competitive.</em></h2>
+        <p class="muted">Before the pagers, there were contests. I grinded DSA through college, then taught it on YouTube. Today it's a shuttle and an open road.</p>
+      </div>
+      <div class="bento" id="bento">
+        <a class="b-card b-yt" href="https://www.youtube.com/@alGOds99" target="_blank" rel="noopener" data-label="watch" style="--c:#ff3b3b">
+          <div class="b-top"><span class="mono">YouTube · teaching</span><span class="b-arrow">↗</span></div>
+          <div class="yt-play"><svg viewBox="0 0 68 48" aria-hidden="true"><path d="M66.5 7.7a8.5 8.5 0 0 0-6-6C55.3.3 34 .3 34 .3s-21.3 0-26.5 1.4a8.5 8.5 0 0 0-6 6C.1 13 .1 24 .1 24s0 11 1.4 16.3a8.5 8.5 0 0 0 6 6C12.7 47.7 34 47.7 34 47.7s21.3 0 26.5-1.4a8.5 8.5 0 0 0 6-6C67.9 35 67.9 24 67.9 24s0-11-1.4-16.3z" fill="#ff0033"/><path d="M27 34.3 44.8 24 27 13.7z" fill="#fff"/></svg></div>
+          <h3>al<b>GO</b>ds</h3>
+          <p class="muted">A DSA channel I started in college: algorithm walkthroughs, LeetCode solutions and interview experiences, explained the way I wish someone had explained them to me.</p>
+          <div class="b-stats">
+            <div><b data-count="4.75" data-dec="2">0</b><sup>K</sup><span class="mono">subscribers</span></div>
+            <div><b data-count="528">0</b><sup>K+</sup><span class="mono">views</span></div>
+            <div><b data-count="61">0</b><span class="mono">videos</span></div>
+          </div>
+        </a>
+
+        <a class="b-card b-cp" href="https://www.codechef.com/users/vagi999" target="_blank" rel="noopener" data-label="profile" style="--c:#c8a27a">
+          <div class="b-top"><span class="mono">CodeChef</span><span class="b-arrow">↗</span></div>
+          <p class="b-big"><b data-count="1817">0</b><span class="b-unit mono">peak rating</span></p>
+          <div class="b-viz"><p class="stars mono">★★★★<i>★★★</i></p></div>
+          <p class="b-sub">4★ coder · <b>#161</b> globally in Oct Challenge '19 (Div 2)</p>
+        </a>
+
+        <a class="b-card b-cp" href="https://codeforces.com/profile/vaginik" target="_blank" rel="noopener" data-label="profile" style="--c:#4c8dff">
+          <div class="b-top"><span class="mono">Codeforces</span><span class="b-arrow">↗</span></div>
+          <p class="b-big"><b data-count="1615">0</b><span class="b-unit mono">max rating</span></p>
+          <div class="b-viz"><div class="cf-bar"><i style="--p:68%"></i><span class="mono">pupil</span><span class="mono">specialist</span><span class="mono">expert</span></div></div>
+          <p class="b-sub">Climbed all the way to <b class="cf-expert">Expert</b></p>
+        </a>
+
+        <a class="b-card b-cp" href="https://leetcode.com/vagi" target="_blank" rel="noopener" data-label="profile" style="--c:#ffa116">
+          <div class="b-top"><span class="mono">LeetCode</span><span class="b-arrow">↗</span></div>
+          <p class="b-big"><b data-count="257">0</b><span class="b-unit mono">solved</span></p>
+          <div class="b-viz">
+            <div class="lc-bar"><i class="lc-e" style="--w:99"></i><i class="lc-m" style="--w:146"></i><i class="lc-h" style="--w:12"></i></div>
+            <div class="lc-legend mono"><span class="lc-e">99 easy</span><span class="lc-m">146 med</span><span class="lc-h">12 hard</span></div>
+          </div>
+          <p class="b-sub">Contest rating <b>1738</b> · top 11.5% worldwide</p>
+        </a>
+
+        <a class="b-card b-cp" href="https://www.hackerrank.com/vaginik" target="_blank" rel="noopener" data-label="profile" style="--c:#2ec866">
+          <div class="b-top"><span class="mono">HackerRank</span><span class="b-arrow">↗</span></div>
+          <p class="b-big"><b data-count="6">0</b><sup>★</sup><span class="b-unit mono">problem solving</span></p>
+          <div class="b-viz"><p class="stars mono">★★★★★★</p></div>
+          <p class="b-sub">Gold badge · <b>5★</b> in C++, 30 Days of Code &amp; Statistics</p>
+        </a>
+
+        <a class="b-card b-cp b-gfg" href="https://auth.geeksforgeeks.org/user/vagishyagnik" target="_blank" rel="noopener" data-label="profile" style="--c:#2f8d46">
+          <div class="b-top"><span class="mono">GeeksforGeeks</span><span class="b-arrow">↗</span></div>
+          <svg class="b-art gfg-logo" viewBox="0 0 200 110" aria-hidden="true"><path pathLength="1" d="M156.6 32.4 A32 32 0 1 0 166 55 H34 A32 32 0 1 0 43.4 32.4"/></svg>
+          <p class="b-big"><b data-count="388">0</b><span class="b-unit mono">coding score</span></p>
+          <p class="b-sub"><b>119</b> problems solved on GeeksforGeeks</p>
+        </a>
+
+        <div class="b-card b-hobby b-bad" style="--c:#d4ff3a">
+          <div class="b-top"><span class="mono">Badminton</span><span class="mono muted">smash · repeat</span></div>
+          <svg class="b-art court" viewBox="0 0 300 110" aria-hidden="true">
+            <path class="court-lines" d="M6 100 H294 M40 100 L66 74 H234 L260 100" />
+            <path class="net" d="M150 100 V58 M150 60 H151" /><path class="net-mesh" d="M150 62 V98" />
+            <path class="rally" id="rally" d="M54 34 Q150 -22 246 34" />
+            <g class="player" transform="translate(38 100)">
+              <circle cx="0" cy="-50" r="6"/><path d="M0 -44 L-2 -20 M-2 -20 L-11 0 M-2 -20 L8 0 M0 -38 L-11 -27"/>
+              <g class="arm" id="armL"><path d="M0 -40 L10 -54"/><path class="racket" d="M10 -54 L14 -62"/><ellipse class="racket" cx="16" cy="-68" rx="5" ry="7"/></g>
+            </g>
+            <g class="player" transform="translate(262 100) scale(-1 1)">
+              <circle cx="0" cy="-50" r="6"/><path d="M0 -44 L-2 -20 M-2 -20 L-11 0 M-2 -20 L8 0 M0 -38 L-11 -27"/>
+              <g class="arm" id="armR"><path d="M0 -40 L10 -54"/><path class="racket" d="M10 -54 L14 -62"/><ellipse class="racket" cx="16" cy="-68" rx="5" ry="7"/></g>
+            </g>
+            <g class="shuttle" id="shuttle"><circle r="4"/><path d="M0 0 L-11 -5.5 L-11 5.5 Z"/></g>
+          </svg>
+          <h3>Enthusiastic <em>badminton</em> player.</h3>
+          <p class="muted">Best reflex training there is, and the only place I'm fine with a smash.</p>
+        </div>
+
+        <div class="b-card b-hobby b-bike" style="--c:#e0a84f">
+          <div class="b-top"><span class="mono">Royal Enfield</span><span class="mono muted">thump · open road</span></div>
+          <div class="b-art road"><svg class="bike" viewBox="0 0 170 92" aria-hidden="true">
+            <g class="wheel"><circle cx="34" cy="68" r="21"/><circle class="hub" cx="34" cy="68" r="4"/><path class="spokes" d="M34 47 V89 M13 68 H55 M19 53 L49 83 M49 53 L19 83 M26 49 L42 87 M42 49 L26 87 M15 60 L53 76 M53 60 L15 76"/></g>
+            <g class="wheel"><circle cx="136" cy="68" r="21"/><circle class="hub" cx="136" cy="68" r="4"/><path class="spokes" d="M136 47 V89 M115 68 H157 M121 53 L151 83 M151 53 L121 83 M128 49 L144 87 M144 49 L128 87 M117 60 L155 76 M155 60 L117 76"/></g>
+            <path class="fender" d="M10 64 A25 25 0 0 1 56 54 M114 58 A24 24 0 0 1 160 62"/>
+            <path class="frame" d="M34 68 L58 40 H70 M34 68 H84 M84 68 L104 36 M104 36 L136 68 M110 22 L136 68 M58 40 L84 68"/>
+            <rect class="engine" x="72" y="48" width="26" height="22" rx="4"/>
+            <path class="engine-fins" d="M76 54 H94 M76 59 H94 M76 64 H94"/>
+            <path class="exhaust" d="M78 72 L56 80 H18"/>
+            <path class="tank" d="M70 36 Q76 22 98 24 Q110 25 108 36 Q90 42 70 40 Z"/>
+            <path class="seat" d="M44 36 Q52 31 68 34 L68 40 H46 Z"/>
+            <path class="bars" d="M110 22 L104 14 H96"/>
+            <circle class="lamp" cx="118" cy="30" r="6"/>
+          </svg><i class="beam"></i><i class="dash"></i></div>
+          <h3>Throttle therapy, <em>the Royal Enfield way.</em></h3>
+          <p class="muted">Long rides are where I debug my own head. No laptop, no Slack, just the thump and the next turn.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SIDE QUEST -->
+    <section class="section">
+      <p class="label mono">(07) Side quest</p>
+      <a class="side reveal" data-hover data-label="open" href="https://d3o02dydsxmyrd.cloudfront.net/app/activities" target="_blank" rel="noopener">
+        <div>
+          <h3>SplitForce</h3>
+          <p class="serif quote">“Split forces. Not friendships.”</p>
+          <p>A shared expense, trip and home tracker. One group model with overlays per type, multi-currency FX, and Google OAuth.
+            Built to practise HLD/LLD and AI-first design, and to run entirely on the AWS free tier.</p>
+          <p class="mono tags">Spring Boot 3 · React 18 · DynamoDB · Lambda · CloudFront</p>
+        </div>
+        <span class="arrow">↗</span>
+      </a>
+    </section>
+
+    <!-- MOTTO -->
+    <section class="motto" id="motto">
+      <h2><span class="m-line">Boring code.</span><span class="m-line"><em>Quiet</em> pagers.</span></h2>
+      <p class="mono muted motto-sub">— the only SLA I care about</p>
+    </section>
+  </main>
+
+  <!-- CONTACT -->
+  <footer id="contact" class="contact">
+    <div class="contact-head">
+      <p class="label mono">(08) Contact</p>
+      <p class="status mono"><span class="pulse"></span>Open to full-stack + AI roles & hard problems</p>
+    </div>
+
+    <h2 class="contact-title" id="contactTitle">
+      <span class="ct-line"><span>Got a product</span></span>
+      <span class="ct-line"><span>that needs</span></span>
+      <span class="ct-line"><span><em>shipping?</em></span></span>
+    </h2>
+
+    <div class="contact-grid">
+      <form class="console reveal" id="console" autocomplete="off" novalidate>
+        <div class="console-bar">
+          <span class="lights"><i></i><i></i><i></i></span>
+          <span class="method mono">POST</span>
+          <span class="endpoint mono">/v1/vagish/hello</span>
+        </div>
+        <div class="console-body">
+          <p class="mono field-label">intent</p>
+          <div class="intents">
+            <label data-hover><input type="radio" name="intent" value="hire" checked /><span>hire</span></label>
+            <label data-hover><input type="radio" name="intent" value="collab" /><span>collab</span></label>
+            <label data-hover><input type="radio" name="intent" value="coffee" /><span>coffee</span></label>
+            <label data-hover><input type="radio" name="intent" value="just_hi" /><span>just_hi</span></label>
+          </div>
+          <div class="fields">
+            <label><span class="mono field-label">from</span><input name="from" placeholder="your name" maxlength="60" /></label>
+            <label><span class="mono field-label">message</span><textarea name="message" rows="3" placeholder="tell me about the product…" maxlength="600"></textarea></label>
+          </div>
+          <pre class="payload" id="payload"></pre>
+          <button type="submit" class="send" data-hover><span>Send request</span><b>⏎</b></button>
+          <pre class="response" id="response" aria-live="polite"></pre>
+        </div>
+      </form>
+
+      <aside class="contact-side">
+        <div class="side-top">
+          <a href="mailto:vagishyagnik@gmail.com" class="badge" data-hover aria-label="Email me">
+            <svg viewBox="0 0 200 200" aria-hidden="true">
+              <defs><path id="circ" d="M100,100 m-78,0 a78,78 0 1,1 156,0 a78,78 0 1,1 -156,0" /></defs>
+              <text textLength="488" lengthAdjust="spacing"><textPath href="#circ" textLength="488" lengthAdjust="spacing">LET'S BUILD SOMETHING • LET'S BUILD SOMETHING •</textPath></text>
+            </svg>
+            <span class="badge-core"><img src="assets/me.jpg" alt="" /></span>
+          </a>
+          <div class="clock">
+            <p class="mono muted">Bangalore · IST</p>
+            <p class="clock-time" id="clock">--:--</p>
+            <p class="mono clock-note" id="clockNote">&nbsp;</p>
+          </div>
+        </div>
+        <dl class="now">
+          <div><dt class="mono">Building</dt><dd>Agentforce Content Agent services</dd></div>
+          <div><dt class="mono">Thinking about</dt><dd>auth at the edge, event-driven provisioning</dd></div>
+          <div><dt class="mono">Reply time</dt><dd>&lt; 24h, usually much faster</dd></div>
+        </dl>
+        <div class="socials">
+          <a href="mailto:vagishyagnik@gmail.com" data-hover><span class="s-ico"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M4 7l8 6 8-6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg></span><span class="s-name">Email</span><span class="s-note">vagishyagnik@gmail.com</span><span class="s-arrow">↗</span></a>
+          <a href="https://drive.google.com/file/d/1vJatr7ny7B77jljhK_bKS2wWLAG40RHC/view?usp=sharing" target="_blank" rel="noopener" data-hover><span class="s-ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z M14 3v5h5 M12 11v6 M9 14.5l3 3 3-3" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span class="s-name">Resume</span><span class="s-note">PDF · download</span><span class="s-arrow">↓</span></a>
+          <a href="https://www.linkedin.com/in/vagish-yagnik" target="_blank" rel="noopener" data-hover><span class="s-ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></svg></span><span class="s-name">LinkedIn</span><span class="s-note">/in/vagish-yagnik</span><span class="s-arrow">↗</span></a>
+          <a href="https://github.com/vagishyagnik" target="_blank" rel="noopener" data-hover><span class="s-ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 .3a12 12 0 0 0-3.8 23.4c.6.1.8-.3.8-.6v-2c-3.3.7-4-1.6-4-1.6-.6-1.4-1.4-1.8-1.4-1.8-1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.8 1.3 3.5 1 .1-.8.4-1.3.7-1.6-2.7-.3-5.5-1.3-5.5-6 0-1.2.5-2.3 1.3-3.1-.2-.4-.6-1.6 0-3.2 0 0 1-.3 3.3 1.2a11.5 11.5 0 0 1 6 0c2.3-1.5 3.3-1.2 3.3-1.2.6 1.6.2 2.8 0 3.2.9.8 1.3 1.9 1.3 3.2 0 4.6-2.8 5.6-5.5 5.9.5.4.9 1.1.9 2.2v3.3c0 .3.1.7.8.6A12 12 0 0 0 12 .3"/></svg></span><span class="s-name">GitHub</span><span class="s-note">@vagishyagnik</span><span class="s-arrow">↗</span></a>
+          <a href="https://www.youtube.com/@alGOds99" target="_blank" rel="noopener" data-hover><span class="s-ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.6 12 3.6 12 3.6s-7.5 0-9.4.5A3 3 0 0 0 .5 6.2 31 31 0 0 0 0 12a31 31 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.5 9.4.5 9.4.5s7.5 0 9.4-.5a3 3 0 0 0 2.1-2.1A31 31 0 0 0 24 12a31 31 0 0 0-.5-5.8zM9.6 15.6V8.4l6.3 3.6z"/></svg></span><span class="s-name">YouTube</span><span class="s-note">@alGOds99</span><span class="s-arrow">↗</span></a>
+          <a href="https://www.instagram.com/vagishyagnik/" target="_blank" rel="noopener" data-hover><span class="s-ico"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="12" r="4.2" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="17.4" cy="6.6" r="1.2" fill="currentColor"/></svg></span><span class="s-name">Instagram</span><span class="s-note">@vagishyagnik</span><span class="s-arrow">↗</span></a>
+          <a href="#" id="copy" data-hover><span class="s-ico"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="8" y="8" width="12" height="12" rx="2" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M16 8V5a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h3" fill="none" stroke="currentColor" stroke-width="1.8"/></svg></span><span class="s-name">Copy email</span><span class="s-note">for the copy-pasters</span><span class="s-arrow">⧉</span></a>
+        </div>
+      </aside>
+    </div>
+
+    <div class="fine mono"><span>© <span class="yr"></span> Vagish Yagnik</span><span>Designed &amp; engineered in Bangalore</span></div>
+  </footer>
+
+  <div class="toast mono" id="toast"></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
